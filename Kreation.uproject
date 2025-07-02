@@ -3,6 +3,16 @@
 	"EngineAssociation": "{C1BA15E7-4AD0-D4D1-2579-7889F230A571}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Kreation",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
